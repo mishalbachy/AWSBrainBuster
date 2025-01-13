@@ -1,0 +1,472 @@
+
+    {
+      "ID": "1",
+      "serviceName": "API Gateway",
+      "options": ["API Gateway","Appsync","SQS"],
+      "hints": ["API management","Create and manage APIs","RESTful and WebSocket"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/API-Gateway.png"
+    },
+    {
+    "ID": "2",
+      "serviceName": "AppSync",
+      "options": ["API Gateway","Appsync","SQS"],
+      "hints": ["GraphQL API","Real-time data synchronization","For building real-time, data-driven applications"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/AppSync.png"
+    },
+    
+    {
+        "ID": "3",
+      "serviceName": "Aurora",
+      "options": ["RDS","Aurora","MySQL"],
+      "hints": ["High-Performance Relational Database","MySQL and PostgreSQL compatible","For high-performance, scalable databases"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Aurora.png"
+    },
+    {
+        "ID": "4",
+      "serviceName": "CloudFront",
+      "options": ["CDN","CloudFront","VPC"],
+      "hints": ["Content Delivery Network","Global content delivery","Delivers content to users with low latency"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/CloudFront.png"
+    },
+    {
+        "ID": "5",
+      "serviceName": "Cognito",
+      "options": ["IAM","Security Center","Cognito"],
+      "hints": ["User Authentication and Authorization","User pools and identity pools","For user authentication and authorization"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Cognito.png"
+    },
+    {
+        "ID": "6",
+      "serviceName": "Comprehend",
+      "options": ["Transcribe","Polly","Comprehend"],
+      "hints": ["Natural Language Processing","Extract insights from text","Text analysis and sentiment analysis"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Comprehend.png"
+    },
+    {
+        "ID": "7",
+      "serviceName": "DevOps Guru",
+      "options":["DevOps Guru","Code Review","Code Commit"],
+      "hints":["Anomaly Detection","Identify operational issues","Proactive operational insights"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/DevOps-Guru.png"
+    },
+    {
+        "ID": "8",
+      "serviceName": "DocumentDB",
+      "options": ["DynamoDB","DocumentDB","Neptune"],
+      "hints":["Fully Managed Document Database","MongoDB-compatible document database","For document-oriented workloads"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/DocumentDB.png"
+    },
+    {
+        "ID": "9",
+      "serviceName": "DynamoDB",
+      "options": ["DynamoDB","DocumentDB","Neptune"],
+      "hints": ["NoSQL database","Fast and flexible data storage","Provides NoSQL database capabilities"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/DynamoDB.png"
+    },
+    {
+        "ID": "10",
+      "serviceName": "EC2",
+      "options": ["ECS","Lambda","EC2"],
+      "hints": ["Virtual servers","Scalable compute capacity","Provides scalable computing capacity"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/EC2.png"
+    },
+    {
+        "ID": "11",
+      "serviceName": "EFS",
+      "options": ["SnowBall","EFS","FSx"],
+      "hints": ["Elastic File System","Fully managed file system","For shared file systems across multiple EC2 instances"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/EFS.png"
+    },
+    {
+        "ID": "12",
+      "serviceName": "ECR",
+      "options":[ "EKS","ECS","ECR"],
+      "hints": ["Fully managed container registry","Store, manage, and deploy container images","Secure and scalable container registry"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Elastic-Container-Registry.png"
+    },
+    {
+        "ID": "13",
+      "serviceName": "ECS",
+      "options": ["ECS","Fargate","Lambda"],
+      "hints": ["Fully managed container orchestration","Easy to use, scalable","For simple container orchestration"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Elastic-Container-Service.png"
+    },
+    {
+        "ID": "14",
+      "serviceName": "EKS",
+      "options": ["EKS","ECS","ECR"],
+      "hints": ["Managed Kubernetes service","Run Kubernetes on AWS","For Kubernetes-native applications"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Elastic-Kubernetes-Service.png"
+    },
+    {
+        "ID": "15",
+      "serviceName": "ELB",
+      "options": ["VPC","ELB","Auto Scaling"],
+      "hints": ["Load Balancing","Distribute traffic across multiple targets","For load balancing and traffic distribution"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Elastic-Load-Balancing.png"
+    },
+    {
+        "ID": "16",
+      "serviceName": "EventBridge",
+      "options": ["SQS","Event Bridge","Step Function"],
+      "hints": ["Serverless Event Bus","Connect applications and data sources","For event-driven architectures"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/EventBridge.png"
+    },
+    {
+        "ID": "17",
+      "serviceName": "Forecast",
+      "options": ["Forecast","Telemetry","Timestamp"],
+      "hints": ["Time Series Forecasting","Predict future trends","Accurate forecasting models"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Forecast.png"
+    },
+    {
+        "ID": "18",
+      "serviceName": "Fraud Detector",
+      "options": ["Textract","Fraud Detector","Inspector"],
+      "hints": ["Fraud Detection","Detect fraudulent activities","Machine learning-based fraud detection"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Fraud-Detector.png"
+    },
+    {
+        "ID": "19",
+      "serviceName": "FSx",
+      "options": ["SnowBall","EFS","FSx"],
+      "hints": ["High-performance file systems","For high-performance workloads","Offers Windows and Lustre file systems"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/FSx.png"
+    },
+    {
+        "ID": "20",
+      "serviceName": "Glacier",
+      "options": ["SnowBall","EFS","Glacier"],
+      "hints":["Archival storage","Low-cost, durable storage","For long-term data archiving"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Simple-Storage-Service-Glacier.png"
+    },
+    {
+        "ID": "21",
+      "serviceName": "Kendra",
+      "options": ["Kendra","Transcribe","Personalize"],
+      "hints": ["Enterprise Search","Find information across documents","Intelligent search and discovery"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Kendra.png"
+    },
+    {
+        "ID": "22",
+      "serviceName": "Kinesis",
+      "options": ["Kinesis","RDS","Redshift"],
+      "hints": ["Real-time data processing","Data streaming platform","Processes real-time data streams"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Kinesis.png"
+    },
+    {
+        "ID": "23",
+      "serviceName": "Lex",
+      "options": ["Lex","Polly","Textract"],
+      "hints": ["Conversational Interface","Build chatbots and voice assistants","Natural language understanding"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Lex.png"
+    },
+    {
+        "ID": "24",
+      "serviceName": "Lightsail",
+      "options": ["Beanstalk","Lightsail","Fargate"],
+      "hints": ["Simple Virtual Servers","Easy to use, preconfigured virtual servers","For small-scale applications and websites"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Lightsail.png"
+    },
+    {
+        "ID": "25",
+      "serviceName": "Neptune",
+      "options": ["DynamoDB","DocumentDB","Neptune"],
+      "hints": ["Graph Database","For graph database applications","For highly connected datasets"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Neptune.png"
+    },
+    {
+        "ID": "26",
+      "serviceName": "Personalize",
+      "options": ["Kendra","Transcribe","Personalize"],
+      "hints":[ "Real-time Recommendations","Personalized recommendations","Machine learning-powered recommendations"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Personalize.png"
+    },
+    {
+        "ID": "27",
+      "serviceName": "Polly",
+      "options":[ "Lex","Polly","Textract"],
+      "hints": ["Text-to-Speech","Convert text to natural-sounding speech","Realistic voice synthesis"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Polly.png"
+    },
+    {
+        "ID": "28",
+      "serviceName": "RDS",
+      "options": ["RDS","Aurora","MySQL"],
+      "hints": ["Relational database","Managed database service","Provides relational database capabilities"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/RDS.png"
+    },
+    {
+        "ID": "29",
+      "serviceName": "Redshift",
+      "options": ["Kinesis","RDS","Redshift"],
+      "hints": ["Data Warehouse","Petabyte-scale data analysis","For data warehousing and analytics"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Redshift.png"
+    },
+    {
+        "ID": "30",
+      "serviceName": "Rekognition",
+      "options": ["Rekognition","Sagemaker","Claude"],
+      "hints": ["Image and Video Analysis","Object detection", "facial analysis,Powerful image/video analysis"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Rekognition.png"
+    },
+    {
+        "ID": "31",
+      "serviceName": "Route53",
+      "options":[ "VPC","Route53","Drect Connect"],
+      "hints": ["Domain Name System (DNS)","Reliable and scalable DNS","For DNS routing and domain name registration"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Route-53.png"
+    },
+    {
+        "ID": "32",
+      "serviceName": "S3",
+      "options": ["S3","EFS","RDS"],
+      "hints": ["Object storage","Scalable and durable","Stores and retrieves any amount of data"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Simple-Storage-Service.png"
+    },
+    {
+        "ID": "33",
+      "serviceName": "SageMaker",
+      "options": ["Rekognition","SageMaker","Claude"],
+      "hints": ["Machine Learning Platform","Build, train, and deploy ML models","Fully managed platform"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/SageMaker.png"
+    },
+    {
+        "ID": "34",
+      "serviceName": "SNS )",
+      "options": ["SNS","SQS","Step Function"],
+      "hints": ["Publish-Subscribe Messaging","Send notifications to multiple subscribers","For notifications and alerts"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Simple-Notification-Service.png"
+    },
+    {
+        "ID": "35",
+      "serviceName": "SQS",
+      "options": ["SNS","SQS","Step Function"],
+      "hints": ["Message Queue","Reliable, scalable, and durable message queues","For asynchronous communication"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Simple-Queue-Service.png"
+    },
+    {
+        "ID": "36",
+      "serviceName": "Textract",
+      "options": ["Lex","Polly","Textract"],
+      "hints": ["Document Analysis","Extract text and data from documents","Document analysis and data extraction"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Textract.png"
+    },
+    {
+        "ID": "37",
+      "serviceName": "Timestream",
+      "options": ["Forecast","Telemetry","Timestream"],
+      "hints": ["Time Series Database","For time series data analysis","For IoT and operational data"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Timestream.png"
+    },
+    {
+        "ID": "38",
+      "serviceName": "Transcribe",
+      "options": ["Kendra","Transcribe","Personalize"],
+      "hints":[ "Speech-to-Text","Convert speech to text","Accurate transcription"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Transcribe.png"
+    },
+    {
+        "ID": "39",
+      "serviceName": "Translate",
+      "options":[ "Translate","Transcribe","Personalize"],
+      "hints": ["Language Translation","Translate text between languages","Accurate and fast translation"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Translate.png"
+    },
+    {
+        "ID": "40",
+      "serviceName": "VPC",
+      "options": ["VPC","ELB","Auto Scaling"],
+      "hints": ["Virtual Network","Create isolated virtual networks","For private networking in the cloud"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Virtual-Private-Cloud.png"
+    },
+    {
+        "ID": "41",
+      "serviceName": "App Runner",
+      "options": ["App Runner","Mobile Farm","ECS"],
+      "hints": ["Fully managed service for deploying web apps and APIs","Easy deployment, automatic scaling","For deploying containerized applications"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/App-Runner.png"
+    },
+    {
+        "ID": "42",
+      "serviceName": "AppSync",
+      "options": ["API Gateway","Appsync","SQS"],
+      "hints": ["GraphQL API","Real-time data synchronization","Provides GraphQL API capabilities"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/AppSync.png"
+    },
+    {
+        "ID": "43",
+      "serviceName": "Auto Scaling",
+      "options": ["VPC","ELB","Auto Scaling"],
+      "hints": ["Auto-scaling","Automatically scales resources","Automatically adjusts resource capacity"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Application-Auto-Scaling.png"
+    },
+    {
+        "ID": "44",
+      "serviceName": "Batch",
+      "options": ["Batch","Spot Instance","EC2 Fleet"],
+      "hints": ["Batch computing service","Run batch jobs on a managed platform","For batch processing workloads"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Batch.png"
+    },
+    {
+        "ID": "45",
+      "serviceName": "CodeBuild",
+      "options": ["CodeBuild","CodeCommit","CodeDeploy"],
+      "hints": ["Build service","Builds code","Builds code for various programming languages"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/CodeBuild.png"
+    },
+    {
+        "ID": "46",
+      "serviceName": "CodeCommit",
+      "options": ["CodeBuild","CodeCommit","CodeDeploy"],
+      "hints": ["Git repository,Secure Git repository hosting,Hosts private Git repositories"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/CodeCommit.png"
+    },
+    {
+        "ID": "47",
+      "serviceName": "CodeDeploy",
+      "options": ["CodeBuild","CodeCommit","CodeDeploy"],
+      "hints": ["Deployment service","Deploys applications","Deploys applications to various environments"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/CodeDeploy.png"
+    },
+    {
+        "ID": "48",
+      "serviceName": "CodePipeline",
+      "options": ["CodeBuild","CodePipeline","CodeDeploy"],
+      "hints": ["Continuous integration/delivery","Automated software delivery","Automates software delivery pipelines"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/CodePipeline.png"
+    },
+    {
+        "ID": "49",
+      "serviceName": "CodeStar",
+      "options": ["CodeStar","CodeCommit","CodeDeploy"],
+      "hints": ["Developer tooling","End-to-end software development","Provides a unified developer environment"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/CodeStar.png"
+    },
+    {
+        "ID": "50",
+      "serviceName": "Direct Connect",
+      "options": ["VPC","Route53","Drect Connect"],
+      "hints": ["Dedicated Network Connection","High-speed, private connection to AWS","For dedicated network connectivity"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Direct-Connect.png"
+    },
+    {
+        "ID": "51",
+      "serviceName": "Elastic Beanstalk",
+      "options": ["Beanstalk","Lightsail","Fargate"],
+      "hints": ["Platform as a Service","Easy deployment and scaling","Simplifies application deployment and management"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Elastic-Beanstalk.png"
+    },
+    {
+        "ID": "52",
+      "serviceName": "Fargate",
+      "options": ["Beanstalk","Lightsail","Fargate"],
+      "hints": ["Serverless compute engine","Run containers without managing servers","Runs containers without managing servers"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Fargate.png"
+    },
+    {
+        "ID": "53",
+      "serviceName": "Glue",
+      "options": ["Athena","Glue","RDS"],
+      "hints": ["ETL service","Combine data for analysis","Extracts, transforms, and loads data"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Glue.png"
+    },
+    {
+        "ID": "54",
+      "serviceName": "IAM",
+      "options": ["IAM","Security Center","Cognito"],
+      "hints": ["Identity and Access Management","User and role management","Manages user access to AWS resources"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Identity-and-Access-Management.png"
+    },
+    {
+        "ID": "55",
+      "serviceName": "IoT Analytics",
+      "options": ["IoT Analytics","IoT Core","Iot Sitewise"],
+      "hints": ["Real-time Analytics","Process and analyze IoT data in real time","For real-time data insights"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/IoT-Analytics.png"
+    },
+    {
+        "ID": "56",
+      "serviceName": "IoT Core",
+      "options": ["IoT Analytics","IoT Core","Iot Sitewise"],
+      "hints": ["Device Management","Securely connect and manage devices","For IoT device connectivity and management"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/IoT-Core.png"
+    },
+    {
+        "ID": "57",
+      "serviceName": "IoT Device Defender",
+      "options": ["IoT Device Defender","IoT Core","Iot Sitewise"],
+      "hints": ["Device Security","Detect and respond to security threats","For IoT device security"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/IoT-Device-Defender.png"
+    },
+    {
+        "ID": "58",
+      "serviceName": "IoT SiteWise",
+      "options": ["IoT Analytics","IoT Core","IoT SiteWise"],
+      "hints": ["Industrial Data Lake","Collect, store, and analyze industrial data","For industrial IoT applications"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/IoT-SiteWise.png"
+    },
+    {
+        "ID": "59",
+      "serviceName": "KMS",
+      "options": ["KMS","Cognito","Secrets Manager"],
+      "hints": ["Key management","Manages cryptographic keys","Manages cryptographic keys"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Key-Management-Service.png"
+    },
+    {
+        "ID": "60",
+      "serviceName": "Lambda",
+      "options": ["ECS","Lambda","EC2"],
+      "hints": ["Serverless computing","Event-driven functions","Executes code in response to events"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Lambda.png"
+    },
+    {
+        "ID": "61",
+      "serviceName": "Redshift",
+      "options": ["Kinesis","RDS","Redshift"],
+      "hints": ["Data warehouse","Petabyte-scale data analysis","Provides data warehousing capabilities"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Redshift.png"
+    },
+    {
+        "ID": "62",
+      "serviceName": "SageMaker",
+      "options": ["SageMaker","Rekognition","LLM"],
+      "hints": ["Machine learning","Fully managed ML platform","Provides machine learning capabilities"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/SageMaker.png"
+    },
+    {
+        "ID": "63",
+      "serviceName": "Secrets Manager",
+      "options": ["KMS","Cognito","Secrets Manager"],
+      "hints": ["Secret management","Securely stores and retrieves secrets","Securely stores and retrieves secrets"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Secrets-Manager.png"
+    },
+    {
+        "ID": "64",
+      "serviceName": "Shield",
+      "options": ["WAF","Shield","Inspector"],
+      "hints": ["DDoS protection","Protects against DDoS attacks","Protects against distributed denial-of-service attacks"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Shield.png"
+    },
+    {
+        "ID": "65",
+      "serviceName": "Step Function",
+      "options": ["SNS","SQS","Step Function"],
+      "hints": ["Workflow orchestration","Visual workflow designer","Coordinate multiple services"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Step-Functions.png"
+    },
+    {
+        "ID": "66",
+      "serviceName": "Transit Gateway",
+      "options": ["Transit Gateway","VPC","Direct Connect"],
+      "hints": ["Network Hub and Spoke","Connect multiple VPCs and on-premises networks","For network connectivity and routing"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/Transit-Gateway.png"
+    },
+    {
+        "ID": "67",
+      "serviceName": "WAF",
+      "options": ["WAF","Shield","Inspector"],
+      "hints": ["Web Application Firewall","Protect web applications","Protects web applications from attacks"],
+      "logoUrl": "https://s3.us-east-1.amazonaws.com/brainbuster.com/icons/WAF.png"
+    }
+  
