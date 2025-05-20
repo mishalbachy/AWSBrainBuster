@@ -61,7 +61,7 @@ const StartScreen: React.FC<StartScreenProps> = ({
       </div>
 
       <div className="absolute bottom-8 text-center text-indigo-200 text-sm">
-        <p>Test your AWS knowledge with our interactive quiz!</p>
+        <p>Test your AWS knowledge with BeNext interactive quiz!</p>
         <p>Every Logo Tells a Story – Can You Guess Them All?</p>
       </div>
     </div>
