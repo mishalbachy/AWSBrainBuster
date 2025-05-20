@@ -6,9 +6,9 @@ interface LevelDisplayProps {
 
 export const LevelDisplay: React.FC<LevelDisplayProps> = ({ level }) => {
   return (
-    <div className="bg-indigo-800/50 px-6 py-3 rounded-lg border border-indigo-600/20">
-      <p className="text-indigo-200 text-sm font-medium">Level</p>
-      <p className="text-orange-400 font-bold text-2xl">{level}</p>
+    <div className="bg-benext-blue bg-opacity-10 px-6 py-3 rounded-lg border border-benext-blue/30">
+      <p className="text-benext-gray text-sm font-medium">Level</p>
+      <p className="text-benext-orange font-bold text-2xl">{level}</p>
     </div>
   );
 };
