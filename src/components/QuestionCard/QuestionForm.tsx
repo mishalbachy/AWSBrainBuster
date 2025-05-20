@@ -46,7 +46,7 @@ export const QuestionForm: React.FC<QuestionFormProps> = ({ question, onAnswer }
 
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="space-y-4">
-          <p className="text-xl font-medium text-indigo-100">
+          <p className="text-xl font-medium text-benext-gray">
             Which AWS service is this?
           </p>
           <div className="space-y-3">
@@ -55,8 +55,8 @@ export const QuestionForm: React.FC<QuestionFormProps> = ({ question, onAnswer }
                 key={option}
                 className={`flex items-center p-4 rounded-lg cursor-pointer transition-all ${
                   selectedAnswer === option
-                    ? 'bg-orange-500/20 border-orange-500/50'
-                    : 'bg-indigo-700/30 border-indigo-600/30 hover:bg-indigo-700/50'
+                    ? 'bg-benext-orange bg-opacity-20 border-benext-orange'
+                    : 'bg-benext-blue bg-opacity-10 border-benext-blue hover:bg-opacity-20'
                 } border`}
               >
                 <input
@@ -65,10 +65,10 @@ export const QuestionForm: React.FC<QuestionFormProps> = ({ question, onAnswer }
                   value={option}
                   checked={selectedAnswer === option}
                   onChange={(e) => setSelectedAnswer(e.target.value)}
-                  className="h-4 w-4 text-orange-500 focus:ring-orange-500 bg-indigo-900 border-indigo-600"
+                  className="h-4 w-4 text-benext-orange focus:ring-benext-orange"
                 />
                 <span className={`ml-3 ${
-                  selectedAnswer === option ? 'text-orange-200' : 'text-indigo-200'
+                  selectedAnswer === option ? 'text-benext-orange' : 'text-benext-gray'
                 }`}>{option}</span>
               </label>
             ))}
@@ -79,7 +79,7 @@ export const QuestionForm: React.FC<QuestionFormProps> = ({ question, onAnswer }
           <button
             type="submit"
             disabled={!selectedAnswer}
-            className="flex-1 bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-medium hover:from-orange-600 hover:to-orange-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:from-orange-500 disabled:hover:to-orange-600"
+            className="flex-1 bg-benext-orange text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Check
           </button>
@@ -89,8 +89,8 @@ export const QuestionForm: React.FC<QuestionFormProps> = ({ question, onAnswer }
             disabled={isHintButtonDisabled}
             className={`flex-1 flex items-center justify-center gap-2 ${
               isHintButtonDisabled 
-                ? 'bg-indigo-800/30 text-indigo-400 cursor-not-allowed'
-                : 'bg-indigo-700/30 text-indigo-200 hover:bg-indigo-700/50'
+                ? 'bg-benext-blue bg-opacity-20 text-benext-gray cursor-not-allowed'
+                : 'bg-benext-blue text-white hover:bg-opacity-90'
             } px-6 py-3 rounded-lg font-medium transition-all`}
           >
             <HelpCircle className="w-5 h-5" />

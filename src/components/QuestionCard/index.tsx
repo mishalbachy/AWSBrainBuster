@@ -9,13 +9,13 @@ interface QuestionCardProps {
 
 const QuestionCard: React.FC<QuestionCardProps> = ({ question, onAnswer }) => {
   return (
-    <div className="bg-gradient-to-b from-indigo-800/50 to-indigo-900/50 rounded-xl shadow-lg p-8 max-w-2xl mx-auto border border-indigo-600/20">
+    <div className="bg-benext-navy rounded-xl shadow-lg p-8 max-w-2xl mx-auto">
       <div className="flex justify-center mb-8">
-        <div className="bg-white/10 p-6 rounded-xl">
+        <div className="bg-white p-6 rounded-xl">
           <img 
             src={question.logoUrl} 
             alt="AWS Service Logo" 
-            className="h-32 w-32 object-contain"
+            className="h-24 w-24 object-contain"
           />
         </div>
       </div>
